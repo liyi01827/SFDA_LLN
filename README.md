@@ -58,7 +58,7 @@ for _ in range(100):
     loss_elr = elr_loss(index, logits)
     loss = loss_sfda + loss_elr
 ```
-
+That's pretty much it. Plug-in the ELR_reg loss into your own code is all you need.
 
 ## Training Scripts
 
